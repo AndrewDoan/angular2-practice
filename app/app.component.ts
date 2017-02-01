@@ -1,7 +1,12 @@
 import { Component } from '@angular/core';
 
 @Component({
+  moduleId: module.id,
   selector: 'my-app',
-  template: `<h1>Hello Bloot</h1>`,
+  template: `
+  <my-header></my-header>
+  `,
 })
-export class AppComponent  { }
+export class AppComponent  {
+  
+}
