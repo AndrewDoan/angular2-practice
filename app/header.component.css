@@ -1,8 +1,9 @@
 #header{
-	border: 1px solid silver;
+	border-bottom: 1px solid silver;
 }
 
 h1{
+	text-align: center;
 }
 
 ul{
