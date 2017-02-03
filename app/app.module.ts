@@ -8,6 +8,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 
 import { AppComponent }  from './app.component';
 import { HeaderComponent } from './header.component';
+import { FooterComponent } from './footer.component';
 
 @NgModule({
   imports: [ 
@@ -17,7 +18,7 @@ import { HeaderComponent } from './header.component';
 	HttpModule,
 	FlexLayoutModule.forRoot(),
   ],
-  declarations: [ AppComponent, HeaderComponent ],
+  declarations: [ AppComponent, HeaderComponent, FooterComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
