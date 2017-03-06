@@ -1,14 +1,13 @@
 #footer{
 	border-top: 1px solid silver;
 	height: 200px;
+	display: flex;
 }
 
 .footer-section{
-	display: inline-block;
 	border: 1px solid silver;
 	width: 100%;
 	text-align: center;
-	vertical-align: top;
 	height: 100%;
 }
 ul{
